@@ -26,7 +26,6 @@
                         TextColor="Green" />
                     <Picker
                         Title="ประเภทรถ"
-                        FontSize="14"
                         x:Name="typePicker" />
                     <Label
                         Text="ยี่ห้อ"
@@ -34,7 +33,6 @@
                         TextColor="Green" />
                     <Picker
                         Title="ยี่ห้อ"
-                        FontSize="14"
                         x:Name="yehorPicker" />
                     <Label
                         FontSize="14"
@@ -119,7 +117,6 @@
                         TextColor="Green" />
                     <Picker
                         Title="จังหวัด"
-                        FontSize="14"
                         x:Name="provicePicker" />
                     <Label
                         FontSize="14"

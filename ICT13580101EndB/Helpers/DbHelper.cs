@@ -14,8 +14,7 @@ namespace ICT13580101EndB.Helpers
         }
         public int AddProduct(Product product)
         {
-            //db.Insert(product);
-            //return product.Id;
+            
             db.Insert(product);
             return product.Id;
         }
