@@ -9,4 +9,10 @@
             Text="New"
             x:Name="newButton" />
     </ContentPage.ToolbarItems>
+    <ListView
+        x:Name="productListview">
+
+        
+
+    </ListView>
 </ContentPage>
