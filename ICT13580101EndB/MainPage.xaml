@@ -9,10 +9,20 @@
             Text="New"
             x:Name="newButton" />
     </ContentPage.ToolbarItems>
-    <ListView
+    <!--<ListView
         x:Name="productListview">
 
-        
+        <ListView.ItemTemplate>
+            <DataTemplate>
+                <TextCell
+                    Text="{Binding Name}"
+                    Detail="{Binding Description}">
 
-    </ListView>
+                </TextCell>
+
+            </DataTemplate>
+
+        </ListView.ItemTemplate>
+
+    </ListView>-->
 </ContentPage>
